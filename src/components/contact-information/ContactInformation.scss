@@ -1,0 +1,47 @@
+.contact-information {
+  padding-top: 107px;
+  padding-left: 180px;
+
+  h2 {
+    font: 42px 'OpenSans-Bold', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  p {
+    font: 16px 'OpenSans-Regular', sans-serif;
+    max-width: 720px;
+    margin-top: 54px;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 132px;
+      height: 3px;
+      background-color: #ff3b3b;
+      margin-top: 57px;
+    }
+  }
+
+  form {
+
+    .form-group {
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        width: 337px;
+      }
+
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+    }
+
+  }
+}
