@@ -31,6 +31,10 @@
         color: #fff;
         border: none;
       }
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 

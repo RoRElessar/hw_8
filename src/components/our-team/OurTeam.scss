@@ -33,6 +33,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      padding: 0 15px;
     }
 
     .info-section {
@@ -149,5 +150,20 @@
       }
 
     }
+  }
+}
+
+@media screen and (max-width: 371px) {
+
+  .our-team {
+
+    .team-section {
+
+      .active-team-member {
+        width: 100%;
+      }
+
+    }
+
   }
 }
