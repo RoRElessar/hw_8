@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Subscribe.css'
+import './Subscribe.scss'
 
 class Subscribe extends Component {
   render () {

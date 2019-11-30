@@ -1,0 +1,77 @@
+.video-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+
+  h1 {
+    font: 60px 'OpenSans-ExtraBold', sans-serif;
+    text-transform: uppercase;
+  }
+
+  p {
+    font: 16px 'OpenSans-Regular', sans-serif;
+    margin-top: 35px;
+  }
+
+  button {
+    width: 225px;
+    height: 55px;
+    background-color: #ff2d2d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font: 18px 'OpenSans-Bold', sans-serif;
+    margin-top: 55px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #313030;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1265px) {
+
+  .left-block {
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1200px){
+
+  .video-block {
+    padding: 10px 20px;
+
+    h1 {
+      font-size: 56px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .video-block {
+    display: block;
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .iframe-container {
+      margin: 20px 0;
+    }
+
+  }
+
+}

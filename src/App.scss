@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("../src/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("../src/fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../src/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src: url("../src/fonts/OpenSans-ExtraBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  max-width: 1265px;
+  margin: 0 auto;
+}
