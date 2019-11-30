@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './OurServices.scss'
-import managementImage from '../../assets/images/Settings.png'
-import uiUxDesignImage from '../../assets/images/Pencil.png'
-import logoBrandingImage from '../../assets/images/Diamond.png'
-import animationImage from '../../assets/images/Truck.png'
+import managementImage from '../../assets/images/services/Settings.png'
+import uiUxDesignImage from '../../assets/images/services/Pencil.png'
+import logoBrandingImage from '../../assets/images/services/Diamond.png'
+import animationImage from '../../assets/images/services/Truck.png'
 
 class OurServices extends Component {
   render () {
