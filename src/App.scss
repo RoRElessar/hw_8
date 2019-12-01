@@ -1,31 +1,41 @@
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url("../src/assets/fonts/OpenSans-Regular.ttf");
+  src: url("../src/assets/fonts/open-sans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: 'OpenSans-Light';
-  src: url("../src/assets/fonts/OpenSans-Light.ttf");
+  src: url("../src/assets/fonts/open-sans/OpenSans-Light.ttf");
 }
 
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url("../src/assets/fonts/OpenSans-Bold.ttf");
+  src: url("../src/assets/fonts/open-sans/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: 'OpenSans-ExtraBold';
-  src: url("../src/assets/fonts/OpenSans-ExtraBold.ttf");
+  src: url("../src/assets/fonts/open-sans/OpenSans-ExtraBold.ttf");
 }
 
 @font-face {
   font-family: 'OpenSans-SemiBold';
-  src: url("../src/assets/fonts/OpenSans-SemiBold.ttf");
+  src: url("../src/assets/fonts/open-sans/OpenSans-SemiBold.ttf");
 }
 
 @font-face {
   font-family: 'OpenSans-Italic';
-  src: url("../src/assets/fonts/OpenSans-Italic.ttf");
+  src: url("../src/assets/fonts/open-sans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../src/assets/fonts/fontawesome/fontawesome-webfont.eot");
+  src: url("../src/assets/fonts/fontawesome/fontawesome-webfont.ttf") format('truetype'),
+  url("../src/assets/fonts/fontawesome/fontawesome-webfont.woff") format('woff'),
+  url("../src/assets/fonts/fontawesome/fontawesome-webfont.woff2") format('woff2'),
+  url("../src/assets/fonts/fontawesome/FontAwesome.otf") format('opentype'),
+  url("../src/assets/fonts/fontawesome/fontawesome-webfont.svg") format('svg');
 }
 
 * {
