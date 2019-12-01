@@ -55,9 +55,7 @@ class OurTeam extends Component {
 
     for (let i = 0; i < members.length; i++) {
       members[i].addEventListener('click', function () {
-        const member = this.state.teamMembers[i]
-
-        this.setState({activeTeamMember: member})
+        this.setState({activeTeamMember: this.state.teamMembers[i]})
       }.bind(this))
     }
   }
