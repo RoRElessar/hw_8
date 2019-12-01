@@ -40,10 +40,13 @@ class OurTeam extends Component {
           socialNetworks: ['Twitter']
         },
       ],
-      activeTeamMemberImage: superManImage,
-      activeTeamMemberDescription: 'Superman is a famous comic book character. He is possibly the first modern superhero character.',
-      activeTeamMemberName: 'Clark Kent',
-      activeSocialNetworks: ['Facebook', 'Twitter'],
+      activeTeamMember: {
+        id: 1,
+        name: 'Clark Kent',
+        image: superManImage,
+        description: 'Superman is a famous comic book character. He is possibly the first modern superhero character.',
+        socialNetworks: ['Facebook', 'Twitter']
+      },
     }
   }
 
@@ -54,17 +57,14 @@ class OurTeam extends Component {
       members[i].addEventListener('click', function () {
         const member = this.state.teamMembers[i]
 
-        this.setState({activeTeamMemberImage: member.image})
-        this.setState({activeTeamMemberName: member.name})
-        this.setState({activeTeamMemberDescription: member.description})
-        this.setState({activeSocialNetworks: member.socialNetworks})
+        this.setState({activeTeamMember: member})
       }.bind(this))
     }
   }
 
   socialNetworks = () => {
     let socialNetworks = []
-    this.state.activeSocialNetworks.forEach(function (el, index) {
+    this.state.activeTeamMember.socialNetworks.forEach(function (el, index) {
       // eslint-disable-next-line jsx-a11y/anchor-is-valid
       socialNetworks.push(<a key={index} href="#">{el}</a>)
     })
@@ -100,12 +100,12 @@ class OurTeam extends Component {
             <div className="row">
               <div className="col-lg-3">
                 <div className="active-team-member"
-                     style={{backgroundImage: `url('${this.state.activeTeamMemberImage}')`}}/>
+                     style={{backgroundImage: `url('${this.state.activeTeamMember.image}')`}}/>
               </div>
               <div className="col-lg-8">
                 <div className="info-section">
-                  <p className="team-member-name">{this.state.activeTeamMemberName}</p>
-                  <p className="team-member-description">{this.state.activeTeamMemberDescription}</p>
+                  <p className="team-member-name">{this.state.activeTeamMember.name}</p>
+                  <p className="team-member-description">{this.state.activeTeamMember.description}</p>
                   <div id="social-networks"
                        className="team-member-social-networks">{this.socialNetworks()}</div>
                 </div>
