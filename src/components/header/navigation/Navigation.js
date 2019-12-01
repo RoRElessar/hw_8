@@ -20,15 +20,19 @@ class Navigation extends Component {
       <section className="navigation">
         <div className={this.state.burgerIsOpen ? 'burger-menu open' : 'burger-menu'}
              onClick={this.openBurger}>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span/>
+          <span/>
+          <span/>
+          <span/>
         </div>
         <ul className="navigation-list">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <li className="navigation-item"><a href="#">Home</a></li>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <li className="navigation-item"><a href="#">Portfolio</a></li>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <li className="navigation-item"><a href="#">About us</a></li>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <li className="navigation-item"><a href="#">Contact</a></li>
         </ul>
       </section>

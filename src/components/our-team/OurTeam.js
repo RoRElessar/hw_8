@@ -65,6 +65,7 @@ class OurTeam extends Component {
   socialNetworks = () => {
     let socialNetworks = []
     this.state.activeSocialNetworks.forEach(function (el, index) {
+      // eslint-disable-next-line jsx-a11y/anchor-is-valid
       socialNetworks.push(<a key={index} href="#">{el}</a>)
     })
     return socialNetworks

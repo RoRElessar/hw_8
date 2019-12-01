@@ -17,6 +17,7 @@ class VideoBlock extends Component {
           </div>
           <div className="col-lg-6 d-flex align-middle">
             <div className="iframe-container embed-responsive embed-responsive-16by9">
+              {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
               <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/BCr7y4SLhck" frameBorder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen/>
             </div>

@@ -14,10 +14,15 @@ class OurProducts extends Component {
           </p>
 
           <div className="filters">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">All</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">Print template</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">Web template</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">User interface</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">Moc-up</a>
           </div>
 
