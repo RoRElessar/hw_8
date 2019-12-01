@@ -95,7 +95,7 @@ class OurTeam extends Component {
           </p>
 
           <div className="team-section">
-            <div className="row">
+            <div className="row no-gutters">
               <div className="col-lg-3">
                 <div className="active-team-member"
                      style={{backgroundImage: `url('${this.state.activeTeamMember.image}')`}}/>
